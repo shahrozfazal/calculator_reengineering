@@ -30,7 +30,7 @@ namespace Win_CalcUI
         private void eraseButton_Click(object sender, EventArgs e)
         {
 
-            //Erase Button Logic
+            //Erase Button Implementation
             string t = calculatorScreen.Text;
             string res = "";
             for(int i = 0; i < t.Length-1; i++)
